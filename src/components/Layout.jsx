@@ -3,7 +3,7 @@ import { UsersThree, PaperPlaneRight } from 'phosphor-react';
 import { io } from 'socket.io-client';
 
 
-const socket = io.connect('http://localhost:3001');
+const socket = io.connect('https://backend-six-eta.vercel.app/');
 export function Layout() {
     const [name, setName] = useState('');
     const [show, setShow] = useState(false);
